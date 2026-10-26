@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
 * {
     margin: 0;
@@ -117,7 +117,7 @@ nav a:hover {
     align-items: center;
 
     background-image:
-        url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2000&q=85");
+        url("images/hero-stairs.jpg");
 
     background-size: cover;
     background-position: center;
@@ -275,7 +275,7 @@ nav a:hover {
 
 .service-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
@@ -294,22 +294,22 @@ nav a:hover {
 
 .vinyl {
     background-image:
-        url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80");
+        url("images/kitchen-lvp.jpg");
 }
 
 .hardwood {
     background-image:
-        url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80");
+        url("images/wood-look-lvp.jpg");
 }
 
 .laminate {
     background-image:
-        url("https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80");
+        url("images/office-lvp.jpg");
 }
 
 .tile {
     background-image:
-        url("https://images.unsplash.com/photo-1615529162924-f8605388461d?auto=format&fit=crop&w=900&q=80");
+        url("images/tile-shower.jpg");
 }
 
 .service-content {
@@ -359,7 +359,7 @@ nav a:hover {
     min-height: 600px;
 
     background-image:
-        url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85");
+        url("images/stairs-lvp.jpg");
 
     background-size: cover;
     background-position: center;
@@ -449,23 +449,23 @@ nav a:hover {
 .gallery-one {
     grid-row: span 2;
     background-image:
-        url("https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1200&q=85");
+        url("images/living-room-lvp.jpg");
 }
 
 .gallery-two {
     background-image:
-        url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=85");
+        url("images/copper-tub-bath.jpg");
 }
 
 .gallery-three {
     background-image:
-        url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85");
+        url("images/gray-lvp-room.jpg");
 }
 
 .gallery-four {
     grid-column: span 2;
     background-image:
-        url("https://images.unsplash.com/photo-1615529162924-f8605388461d?auto=format&fit=crop&w=1200&q=85");
+        url("images/carpet-tile-office.jpg");
 }
 
 
@@ -477,7 +477,7 @@ nav a:hover {
             rgba(15,48,40,.93),
             rgba(15,48,40,.93)
         ),
-        url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=80");
+        url("images/hero-stairs.jpg");
 
     background-size: cover;
     background-position: center;
@@ -653,6 +653,225 @@ nav a:hover {
 }
 
 
+/* LOGO IMAGE */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.logo .logo-text {
+    display: block;
+    color: inherit;
+    font-size: inherit;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 0;
+}
+
+.logo-text span {
+    display: block;
+    color: #b88b43;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+
+
+/* EXTRA SERVICE IMAGES */
+
+.stairs {
+    background-image: url("images/stairs-lvp.jpg");
+}
+
+.carpet {
+    background-image: url("images/carpet-tile-office.jpg");
+}
+
+.repairs {
+    background-image: url("images/shower-install.jpg");
+}
+
+
+/* PHOTO GRID (real job photos) */
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.photo-grid figure {
+    margin: 0;
+    background: white;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,.05);
+}
+
+.photo-grid img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.photo-grid figcaption {
+    padding: 10px 12px;
+    font-size: 13px;
+    color: #4e5953;
+}
+
+
+/* SERVICE AREAS */
+
+.areas {
+    background: white;
+}
+
+.area-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.area-card {
+    background: #f7f6f2;
+    border: 1px solid #e5e0d7;
+    border-radius: 8px;
+    padding: 28px;
+}
+
+.area-card h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #173f35;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.area-card p {
+    color: #69736d;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.area-card ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.area-card li {
+    background: white;
+    border: 1px solid #e5e0d7;
+    border-radius: 20px;
+    padding: 3px 11px;
+    font-size: 12px;
+    color: #173f35;
+}
+
+
+/* REVIEWS BAND */
+
+.reviews-band {
+    background: #f2eee6;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.reviews-band h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #173f35;
+    font-size: clamp(32px, 4vw, 44px);
+    margin-bottom: 12px;
+}
+
+.reviews-band p {
+    color: #69736d;
+    max-width: 620px;
+    margin: 0 auto 25px;
+}
+
+
+/* INNER PAGES */
+
+.page-hero {
+    background:
+        linear-gradient(rgba(10,31,25,.85), rgba(10,31,25,.85)),
+        url("images/hero-stairs.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 90px 0 80px;
+}
+
+.page-hero h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(38px, 5vw, 60px);
+    line-height: 1.08;
+    margin-bottom: 15px;
+}
+
+.page-hero p:not(.eyebrow) {
+    max-width: 650px;
+    color: #dbe5df;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.prose {
+    max-width: 780px;
+}
+
+.prose h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #173f35;
+    font-size: 32px;
+    margin: 40px 0 12px;
+}
+
+.prose p,
+.prose li {
+    color: #4e5953;
+    margin-bottom: 14px;
+}
+
+.prose ul {
+    padding-left: 22px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb {
+    font-size: 13px;
+    color: #c79a52;
+    margin-bottom: 18px;
+}
+
+.breadcrumb a {
+    color: #dbe5df;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #d1a45e;
+}
+
+
 /* MOBILE */
 
 @media (max-width: 900px) {
@@ -661,8 +880,13 @@ nav a:hover {
         display: none;
     }
 
-    .service-grid {
+    .service-grid,
+    .area-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .about-grid,
@@ -732,8 +956,13 @@ nav a:hover {
         font-size: 17px;
     }
 
-    .service-grid {
+    .service-grid,
+    .area-grid {
         grid-template-columns: 1fr;
+    }
+
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .about-photo {

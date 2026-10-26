@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mrcyber01010101010101.github.io/florida-floors-website/sitemap.xml
