@@ -1116,3 +1116,44 @@ nav a.nav-flood {
         width: 100%;
     }
 }
+
+/* Header fit with the Flood Damage link (2026-11-03) */
+nav a {
+    white-space: nowrap;
+}
+
+.logo-text {
+    white-space: nowrap;
+}
+
+@media (max-width: 1200px) and (min-width: 901px) {
+    .nav {
+        gap: 16px;
+    }
+
+    nav {
+        gap: 16px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    nav a[href$="#contact"] {
+        display: none;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .logo img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .nav-button {
+        padding: 11px 14px;
+        white-space: nowrap;
+    }
+}
