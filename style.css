@@ -991,3 +991,128 @@ nav a:hover {
     }
 
 }
+
+
+/* FLOOD DAMAGE (added 2026-11-03) */
+
+.flood-bar {
+    background: #0e5a7a;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 9px 16px;
+}
+
+.flood-bar a {
+    color: #ffd98a;
+    text-decoration: underline;
+    margin-left: 6px;
+}
+
+nav a.nav-flood {
+    color: #0e5a7a;
+}
+
+.flood-hero {
+    background:
+        linear-gradient(rgba(8,38,52,.86), rgba(8,38,52,.86)),
+        url("images/demo-prep.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.flood-hero .button {
+    margin: 0 10px 10px 0;
+}
+
+.flood-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.flood-step {
+    background: white;
+    border-top: 4px solid #0e5a7a;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 5px 25px rgba(0,0,0,.05);
+}
+
+.flood-step h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #173f35;
+    font-size: 21px;
+    margin: 6px 0 8px;
+}
+
+.flood-step p {
+    color: #4e5953;
+    font-size: 14px;
+}
+
+.flood-alert {
+    background: #0e5a7a;
+    color: white;
+    padding: 46px 0;
+}
+
+.flood-alert-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.flood-alert h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(28px, 3.4vw, 38px);
+    line-height: 1.15;
+    margin-bottom: 8px;
+}
+
+.flood-alert p {
+    color: #d6e9f0;
+    max-width: 640px;
+}
+
+.flood-alert-buttons {
+    display: flex;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.flood {
+    background-image: url("images/demo-prep.jpg");
+}
+
+.floodfloor {
+    background-image: url("images/lvp-install.jpg");
+}
+
+.rebuild {
+    background-image: url("images/gray-lvp-room.jpg");
+}
+
+@media (max-width: 900px) {
+    .flood-steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flood-alert-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+    .flood-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .flood-alert-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+}
