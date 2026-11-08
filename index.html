@@ -11,7 +11,7 @@
 
     <link rel="canonical" href="https://mrcyber01010101010101.github.io/tlc-flooring/">
     <link rel="icon" href="images/logo.jpg">
-    <link rel="stylesheet" href="style.css?v=20261107b">
+    <link rel="stylesheet" href="style.css?v=20261107c">
 
     <meta property="og:title" content="TLC Flooring | Tracy Cochran LLC">
     <meta property="og:description" content="Flooring installation, flood damage repair and home repairs in Volusia, Seminole & Orange County, FL. Free estimates.">
@@ -407,11 +407,9 @@
         </div>
 
         <div class="reel-feature">
-            <a class="reel-frame" href="https://www.facebook.com/reel/1286589660309059/" target="_blank" rel="noopener" aria-label="Watch the shower pan water damage reel on Facebook">
-                <img src="images/shower-install.jpg" alt="New tile shower with hexagon mosaic shower pan" loading="lazy">
-                <span class="reel-play" aria-hidden="true"></span>
-                <span class="reel-label">▶ Watch the reel</span>
-            </a>
+            <div class="reel-frame">
+                <video src="videos/shower-pan-reel.mp4" poster="images/shower-pan-reel-poster.jpg" controls playsinline muted loop preload="metadata" aria-label="TLC Flooring reel: shower pan water damage restoration in Orlando"></video>
+            </div>
             <div class="reel-text">
                 <p class="eyebrow">WATCH THE JOB</p>
                 <h3>Shower Pan Water Damage, Fixed Right</h3>
@@ -669,5 +667,8 @@
     📞 Call TLC Flooring
 </a>
 
+<script>
+(function(){var v=document.querySelector(".reel-frame video");if(!v||!("IntersectionObserver" in window))return;new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){v.play().catch(function(){});}else{v.pause();}});},{threshold:.5}).observe(v);})();
+</script>
 </body>
 </html>

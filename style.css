@@ -1184,6 +1184,7 @@ nav a {
     display: block;
 }
 
+.reel-frame video,
 .reel-frame img {
     position: absolute;
     inset: 0;
